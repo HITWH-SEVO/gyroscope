@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"..\obj\main.o"
+"..\obj\stm32f4xx_it.o"
+"..\obj\system_stm32f4xx.o"
+"..\obj\mathtool.o"
+"..\obj\vector3.o"
+"..\obj\mpu6000.o"
+"..\obj\drv_spi.o"
+"..\obj\mpu6500.o"
+"..\obj\l3gd20.o"
+"..\obj\lsm303.o"
+"..\obj\delay.o"
+"..\obj\sys.o"
+"..\obj\usart.o"
+"..\obj\startup_stm32f427_437xx.o"
+"..\obj\misc.o"
+"..\obj\stm32f4xx_gpio.o"
+"..\obj\stm32f4xx_rcc.o"
+"..\obj\stm32f4xx_spi.o"
+"..\obj\stm32f4xx_syscfg.o"
+"..\obj\stm32f4xx_usart.o"
+--strict --scatter "..\OBJ\SPI.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\OBJ\SPI.map" -o ..\OBJ\SPI.axf

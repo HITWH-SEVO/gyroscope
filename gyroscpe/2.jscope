@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="1000" Connection="1" SerialNo="0" IP="" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="E:\share\实验25 SPI实验\OBJ\SPI.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="x" Address="0x2000007C" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="1154" YMaxSampled="2327" YAvgSampled="1762" Offset="4" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="y" Address="0x20000080" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-2344" YMaxSampled="-1644" YAvgSampled="-2011" Offset="8" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="2000" MaxValue="4000" File="main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="z" Address="0x20000084" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-752" YMaxSampled="-279" YAvgSampled="-504" Offset="12" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="500" MaxValue="1000" File="main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="x" Address="0x20000088" Type="int" TypeID="12" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="1" YMaxSampled="16" YAvgSampled="9" Offset="16" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="10" MaxValue="20" File="main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="y" Address="0x2000008C" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-28" YMaxSampled="-9" YAvgSampled="-14" Offset="20" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="20" MaxValue="40" File="main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="z" Address="0x20000090" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="191" GraphColorBlue="255" YMinSampled="1052" YMaxSampled="1081" YAvgSampled="1067" Offset="24" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1000" MaxValue="2000" File="main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="x" Address="0x20000064" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="100" GraphColorBlue="0" YMinSampled="15" YMaxSampled="29" YAvgSampled="23" Offset="28" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="20" MaxValue="40" File="main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="y" Address="0x20000068" Type="int" TypeID="12" Size="4" GraphColorRed="205" GraphColorGreen="133" GraphColorBlue="63" YMinSampled="12" YMaxSampled="22" YAvgSampled="16" Offset="32" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="20" MaxValue="40" File="main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="z" Address="0x2000006C" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="1038" YMaxSampled="1067" YAvgSampled="1054" Offset="36" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1000" MaxValue="2000" File="main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
